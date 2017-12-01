@@ -2,10 +2,10 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          Kijoong kim
 paginate:       5
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+baseurl:        ""
+url:            "https://kimkijoong.github.io"
 
 # Assets
 sass:
@@ -17,15 +17,11 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Chester How
-  url:          http://chester.how
-  email:        chesterhow@gmail.com
+  name:         kijoong kim
+  url:          http://kimkijoong.github.io
+  email:        kkj6943@gmail.com
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/chesterhow/tale
-
-# Gems
-plugins:
-  - jekyll-paginate
+  repo:         https://github.com/kimkijoong
