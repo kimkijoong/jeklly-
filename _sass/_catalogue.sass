@@ -1,33 +1,32 @@
 .catalogue
   &-item
-    border-bottom: 1px solid $grey-2
-    color: $default-color
-    display: inline-block
-    padding: 2rem 0
+    background-color: $bg-nomal-color
+    display: block
+    padding: 52px 0
 
-    &:hover .catalogue-line,
-    &:focus .catalogue-line
-      width: 5rem
 
-    &:last-child
-      border: 0
-
-  &-time
-    color: $default-tint
-    font-family: $base-font
-    letter-spacing: 0.5px
+  &-type
+    display: block
+    color: $sub-color
+    font-size: 15px
+    text-align: center
+    letter-spacing: 6.8px
 
   &-title
     color: $default-shade
     display: block
-    font-family: $base-font
+    font-family: $serif
     font-size: 2rem
-    font-weight: 700
-    margin: 0.5rem 0
+    font-weight: 100
+    color: $basic-color
+    line-height: 1.7
+    text-align: center
+    padding-top: 16px
 
-  &-line
-    +transition(all 0.3s ease-out)
-
-    border-top: 0.2rem solid $default-shade
+  &-subtitle
     display: block
-    width: 2rem
+    color: $sub-color
+    font-size: 13px
+    text-align: center
+    line-height: 1.7
+    padding-top: 20px
