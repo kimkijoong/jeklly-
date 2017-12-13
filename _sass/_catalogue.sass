@@ -3,6 +3,10 @@
     background-color: $bg-nomal-color
     display: block
     padding: 52px 0
+    border-radius: 4px
+    &:hover
+      background-color: $bg-hover-color
+      transition: all 0.6s ease
 
 
   &-type
@@ -10,16 +14,18 @@
     color: $sub-color
     font-size: 15px
     text-align: center
-    letter-spacing: 6.8px
+    span
+      padding-bottom: 4px
+      border-bottom: 1px solid $shadow-color
 
   &-title
     color: $default-shade
     display: block
     font-family: $serif
-    font-size: 2rem
+    font-size: 32px
     font-weight: 100
     color: $basic-color
-    line-height: 1.7
+    line-height: 1.5
     text-align: center
     padding-top: 16px
 

@@ -3,6 +3,9 @@
 # only main files contain this front matter, not partials.
 ---
 
+
+@import 'color';
+@import 'fonts';
 @import 'variables';
 @import 'base';
 @import 'code';

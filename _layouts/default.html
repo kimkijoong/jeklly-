@@ -4,26 +4,27 @@
   {% include head.html %}
 
   <body>
+    {% assign current = page.url | downcase | split: '/' %}
     <nav class="nav">
       <div class="nav-container">
         <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
+          <h5 class="nav-title">{{ site.title }}</h5>
         </a>
         <ul>
-          <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-          <li><a href="{{ site.baseurl }}/">Posts</a></li>
+          <li>
+            <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" %} class="normal" {% endif %} class="active">Posts</a>
+          </li>
+          <!-- <li>
+            <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >About</a>
+          </li> -->
         </ul>
     </div>
   </nav>
 
-    <main>
-      {{ content }}
-    </main>
-
-    <footer>
-      <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}
-      </span>
-    </footer>
+  <div  style="background-image: url('{{ page.header-img }}')">
+</div>
+  <main>
+    {{ content }}
+  </main>
   </body>
 </html>

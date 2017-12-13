@@ -4,15 +4,19 @@
 
 body,
 html
-  color: $default-color
+  color: $basic-color
   margin: 0
   padding: 0
+  background-color: $bg-nomal-color
 
 
 body,
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   word-break: keep-all
+  padding-top: 64px
+  @media (min-width: 600px)
+    padding-top: calc(65px + 3%)
 
 
 html
@@ -36,7 +40,7 @@ h6
   line-height: normal
 
 a
-  color: $blue
+  color: $basic-color
   text-decoration: none
 
 blockquote
