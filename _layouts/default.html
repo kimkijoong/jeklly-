@@ -12,16 +12,14 @@
         </a>
         <ul>
           <li>
-            <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" %} class="normal" {% endif %} class="active">Posts</a>
+            <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" %} class="normal" {% endif %} class="active">blog</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >About</a>
-          </li>
+          </li> -->
         </ul>
     </div>
   </nav>
-
-  <div  style="background-image: url('{{ page.header-img }}')">
 </div>
   <main>
     {{ content }}

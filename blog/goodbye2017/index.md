@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "내년 계획을 위한<br>31가지 질문들"
-subtitle: "좋은 질문을 스스로에게 물음으로써<br명료한 목적과 행복을 찾을 수 있을 것입니다."
-type: "D&nbsp&nbspA&nbsp&nbspI&nbsp&nbspR&nbsp&nbspY"
+subtitle: "좋은 질문을 스스로에게 물음으로써<br>명료한 목적과 행복을 찾을 수 있을 것입니다."
+type: "D A I R Y"
+blog: true
 author: "kim kijoong"
+order: 1
 ---
 
 1. 지난 한 해를 떠올렸을 때, 가장 먼저 떠오르는 생각은 무엇인가요? <sub>(그것은 +인가요, -인가요 또는 0인가요)</sub>
