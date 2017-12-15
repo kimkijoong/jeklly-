@@ -6,6 +6,8 @@ type: "D A I R Y"
 blog: true
 author: "kim kijoong"
 ---
+![희소의 선물](./images/fromheeso.jpeg)
+<br><br>
 
 1. 지난 한 해를 떠올렸을 때, 가장 먼저 떠오르는 생각은 무엇인가요?<br>
 <sub>(그것은 +인가요, -인가요 또는 0인가요)</sub>
@@ -71,3 +73,5 @@ author: "kim kijoong"
 30. 나는 어떻게 나의 생각과 감정을 남겨두었나요?<sub>(글쓰기, 메모하기, SNS, 친구나 가족에게 나누기 등)</sub>그것은 효과적이었나요?
 
 31. 올 한 해를 가장 잘 묘사하는 6개의 단어(형용사)는 무엇이 될 수 있을까요?<br>그리고 내년을 묘사하는 단어로 무엇을 하고 싶나요?
+
+제공 : [Creative Coaching 희소로 부터](http://www.artistcoach.co.kr/)
