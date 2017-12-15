@@ -5,8 +5,9 @@ subtitle: "좋은 질문을 스스로에게 물음으로써<br>명료한 목적�
 type: "D A I R Y"
 blog: true
 author: "kim kijoong"
+share-title: "내년 계획을 위한 31가지 질문들"
 ---
-![희소의 선물](./images/fromheeso.jpeg)
+<img src="./images/fromheeso.jpeg" alt="희소의 선물">
 <br><br>
 
 1. 지난 한 해를 떠올렸을 때, 가장 먼저 떠오르는 생각은 무엇인가요?<br>
