@@ -22,12 +22,14 @@
     color: $default-shade
     display: block
     font-family: $serif
-    font-size: 32px
+    font-size: 28px
     font-weight: 100
     color: $basic-color
     line-height: 1.5
     text-align: center
     padding-top: 16px
+    @media (min-width: 600px)
+      font-size: 32px
 
   &-subtitle
     display: block
@@ -35,7 +37,10 @@
     font-size: 13px
     text-align: center
     line-height: 1.7
-    padding-top: 16px
+    padding-top: 12px
+    @media (min-width: 600px)
+      font-size: 14px
+
 
 ul.catalogue
   padding-left: 0
