@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "About"
+title: "hello"
 author: "kimkijoong"
 permalink: /about/
 ---
 
-안녕하세요 김기중입니다.
+김기중입니다.

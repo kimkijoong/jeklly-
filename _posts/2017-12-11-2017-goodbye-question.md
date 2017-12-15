@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "내년 계획을 위한<br>31가지 질문들"
-subtitle: "더 나은 질문을 당신 스스로에게 물음으로써 당신은 당신의 일과 삶에서<br>보다 더 명료한 목적과 그에 따른 행복을 찾을 수 있을 것입니다."
+subtitle: "좋은 질문을 스스로에게 물음으로써<br명료한 목적과 행복을 찾을 수 있을 것입니다."
 type: "D&nbsp&nbspA&nbsp&nbspI&nbsp&nbspR&nbsp&nbspY"
 author: "kim kijoong"
 ---
